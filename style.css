@@ -75,4 +75,91 @@ body {
     flex-wrap: wrap;
     gap: 18px;
   }
+
+  .hero {
+    padding: 80px 6% 64px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+    letter-spacing: -1px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .hero-actions {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 120px 8% 100px;
+}
+
+/* Introductory label */
+.hero-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #777777;
+  margin-bottom: 24px;
+}
+
+/* Main heading */
+.hero h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  color: #171717;
+  margin: 0 0 24px;
+  max-width: 750px;
+}
+
+/* Supporting text */
+.hero-description {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #666666;
+  max-width: 600px;
+  margin: 0 0 32px;
+}
+
+/* Button group */
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Primary button */
+.primary-button {
+  display: inline-block;
+  background-color: #171717;
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.primary-button:hover {
+  background-color: #383838;
+}
+
+/* Secondary link */
+.secondary-link {
+  color: #333333;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.secondary-link:hover {
+  color: #777777;
 }
